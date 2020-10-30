@@ -1,0 +1,447 @@
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.106
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 16 2020 08:33:41 UTC
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.106.0
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_212\jre
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_212-b10
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\conf\logging.properties
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\temp
+Oct 30, 2020 8:30:24 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+Oct 30, 2020 8:30:24 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Oct 30, 2020 8:30:24 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+Oct 30, 2020 8:30:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:30:24 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-9090"]
+java.lang.Exception: Socket bind failed: [730048] [Only one usage of each socket address (protocol/network address/port) is normally permitted.  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Oct 30, 2020 8:30:24 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-9090]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1032)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Only one usage of each socket address (protocol/network address/port) is normally permitted.  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+	... 13 more
+
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 585 ms
+Oct 30, 2020 8:30:24 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Oct 30, 2020 8:30:24 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.106
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war]
+Oct 30, 2020 8:30:24 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war] has finished in [393] ms
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs]
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs] has finished in [51] ms
+Oct 30, 2020 8:30:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples]
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples] has finished in [279] ms
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager]
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager] has finished in [55] ms
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager]
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager] has finished in [42] ms
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT]
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT] has finished in [37] ms
+Oct 30, 2020 8:30:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 909 ms
+Oct 30, 2020 8:30:25 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+Oct 30, 2020 8:30:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:30:25 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Oct 30, 2020 8:30:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:30:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:33:57 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Oct 30, 2020 8:33:57 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:33:57 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Oct 30, 2020 8:33:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:33:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:34:43 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.106
+Oct 30, 2020 8:34:43 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 16 2020 08:33:41 UTC
+Oct 30, 2020 8:34:43 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.106.0
+Oct 30, 2020 8:34:43 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Oct 30, 2020 8:34:43 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_212\jre
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_212-b10
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106/conf/logging.properties
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106/temp
+Oct 30, 2020 8:34:44 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+Oct 30, 2020 8:34:44 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Oct 30, 2020 8:34:44 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+Oct 30, 2020 8:34:44 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 794 ms
+Oct 30, 2020 8:34:44 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Oct 30, 2020 8:34:44 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.106
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war]
+Oct 30, 2020 8:34:44 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [235] milliseconds.
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war] has finished in [588] ms
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs]
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs] has finished in [80] ms
+Oct 30, 2020 8:34:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples]
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples] has finished in [352] ms
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager]
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager] has finished in [84] ms
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager]
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager] has finished in [76] ms
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT]
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT] has finished in [79] ms
+Oct 30, 2020 8:34:45 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:34:45 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1345 ms
+Oct 30, 2020 8:35:15 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Oct 30, 2020 8:35:15 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:35:15 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Oct 30, 2020 8:35:15 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:35:15 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.106
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 16 2020 08:33:41 UTC
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.106.0
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_212\jre
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_212-b10
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106/conf/logging.properties
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:/Users/leona/jleetutorial-maven-project.git-/apache-tomcat-7.0.106-windows-x64-production/apache-tomcat-7.0.106/temp
+Oct 30, 2020 8:36:41 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+Oct 30, 2020 8:36:41 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Oct 30, 2020 8:36:41 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+Oct 30, 2020 8:36:41 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 747 ms
+Oct 30, 2020 8:36:41 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Oct 30, 2020 8:36:41 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.106
+Oct 30, 2020 8:36:41 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war]
+Oct 30, 2020 8:36:42 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [216] milliseconds.
+Oct 30, 2020 8:36:42 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war] has finished in [582] ms
+Oct 30, 2020 8:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs]
+Oct 30, 2020 8:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs] has finished in [80] ms
+Oct 30, 2020 8:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples]
+Oct 30, 2020 8:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples] has finished in [392] ms
+Oct 30, 2020 8:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager]
+Oct 30, 2020 8:36:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager] has finished in [90] ms
+Oct 30, 2020 8:36:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager]
+Oct 30, 2020 8:36:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager] has finished in [81] ms
+Oct 30, 2020 8:36:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT]
+Oct 30, 2020 8:36:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT] has finished in [74] ms
+Oct 30, 2020 8:36:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:36:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1376 ms
+Oct 30, 2020 8:36:43 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+Oct 30, 2020 8:36:43 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:36:43 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Oct 30, 2020 8:36:43 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:36:43 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.106
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 16 2020 08:33:41 UTC
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.106.0
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_212\jre
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_212-b10
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\conf\logging.properties
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\temp
+Oct 30, 2020 8:37:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+Oct 30, 2020 8:37:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Oct 30, 2020 8:37:14 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+Oct 30, 2020 8:37:14 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 786 ms
+Oct 30, 2020 8:37:14 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Oct 30, 2020 8:37:14 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.106
+Oct 30, 2020 8:37:14 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [217] milliseconds.
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war] has finished in [551] ms
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\docs] has finished in [86] ms
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\examples] has finished in [371] ms
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\host-manager] has finished in [91] ms
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\manager] has finished in [63] ms
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\ROOT] has finished in [54] ms
+Oct 30, 2020 8:37:15 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-9090"]
+Oct 30, 2020 8:37:15 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1296 ms
+Oct 30, 2020 8:37:31 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/webapp]
+Oct 30, 2020 8:37:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war]
+Oct 30, 2020 8:37:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war] has finished in [52] ms

@@ -1,0 +1,14 @@
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/webapp'
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/webapp'
+Oct 30, 2020 8:37:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to C:\Users\leona\jleetutorial-maven-project.git-\apache-tomcat-7.0.106-windows-x64-production\apache-tomcat-7.0.106\webapps\webapp.war

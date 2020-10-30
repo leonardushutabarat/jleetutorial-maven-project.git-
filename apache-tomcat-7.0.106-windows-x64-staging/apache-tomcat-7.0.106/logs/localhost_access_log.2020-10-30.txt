@@ -1,0 +1,15 @@
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET / HTTP/1.1" 200 11416
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /tomcat.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /tomcat.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /bg-nav.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /asf-logo-wide.svg HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /bg-button.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /bg-upper.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /bg-middle.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Oct/2020:08:34:14 +0000] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [30/Oct/2020:08:35:37 +0000] "GET / HTTP/1.1" 200 11416
+127.0.0.1 - - [30/Oct/2020:08:35:37 +0000] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - tomcat [30/Oct/2020:08:36:01 +0000] "GET /manager/text/list HTTP/1.1" 200 228
+127.0.0.1 - tomcat [30/Oct/2020:08:36:01 +0000] "GET /manager/text/list HTTP/1.1" 200 228
+127.0.0.1 - tomcat [30/Oct/2020:08:36:01 +0000] "GET /manager/text/undeploy?path=%2Fwebapp HTTP/1.1" 200 66
+127.0.0.1 - tomcat [30/Oct/2020:08:36:02 +0000] "PUT /manager/text/deploy?path=%2Fwebapp HTTP/1.1" 200 64
